@@ -25,6 +25,7 @@ public class Scores_Chapter10 {
                     "xnj7x252nk"
         );
         	 System.out.println("データベース接続成功");
+		 System.out.println(con);
         	 
         	 //クエリ準備
         	 statement = con.createStatement();
